@@ -12,17 +12,17 @@ USE_SSH=0
 
 # owner/repo|branch
 VORTEX_REPOS=(
-    "vortexntnu/vortex-auv|development"
-    "vortexntnu/vortex-msgs|main"
-    "vortexntnu/vortex-utils|main"
+    "vortexntnu/vortex-auv|rework/isam2"
+    "vortexntnu/vortex-msgs|rework/landmark-navigation"
+    "vortexntnu/vortex-utils|rework/landmark-navigation"
     "vortexntnu/vortex-vkf|main"
     "vortexntnu/vortex-ci|main"
-    "vortexntnu/vortex-cv|development"
+    "vortexntnu/vortex-cv|rework/isam2"
     "vortexntnu/vortex-aruco-detection|main"
     "vortexntnu/vortex-gstreamer|test/pipeline-drain"
     "vortexntnu/vortex-pyqt-gui|operator-interface"
     "vortexntnu/vortex-stonefish-interface|main"
-    "vortexntnu/vortex-stonefish-sim|robosub"
+    "vortexntnu/vortex-stonefish-sim|rework/landmark-navigation"
     "vortexntnu/stonefish_ros2|main"
     "vortexntnu/stim300-driver|feature/ros2-port"
     "uleroboticsgroup/yasmin|main"
