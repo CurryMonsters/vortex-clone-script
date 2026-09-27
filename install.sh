@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# Clone the Vortex repos into the ROS 2 workspace (~/ros2_ws/src).
+# Clone the Vortex repos into the ROS 2 workspace (~/code/ros2_ws/src).
 #
 # Usage:
-#   ./install.sh                 clone over HTTPS into ~/ros2_ws/src
+#   ./install.sh                 clone over HTTPS into ~/code/ros2_ws/src
 #   ./install.sh --ssh           clone over SSH (port 443) instead of HTTPS
 #   ./install.sh --ws=PATH       use PATH as the ROS 2 workspace
 set -euo pipefail
 
-WS_DIR="$HOME/ros2_ws"
+WS_DIR="$HOME/code/ros2_ws"
 USE_SSH=0
 
 # owner/repo|branch
